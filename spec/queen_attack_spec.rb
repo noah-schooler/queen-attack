@@ -15,7 +15,11 @@ describe('Array#queen_attack?') do
     expect(queen_attack?([3,5], [9,5])).to(eq(true))
   end
 
-  it('is false if the coordinates are not diagonally in line with each other') do
-    expec(queen_attack?([1,4], [3,1])).to(eq(false))
-  end
+  # it('is true if the coordinates are diagonally in line with each other') do
+  #   expect(queen_attack?([4,4], [6,2])).to(eq(true))
+  # end
+  #
+  # it('is false if the coordinates are not diagonally in line with each other') do
+  #   expect(queen_attack?([1,4], [3,1])).to(eq(false))
+  # end
 end
